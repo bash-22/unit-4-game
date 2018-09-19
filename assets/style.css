@@ -1,0 +1,68 @@
+body {
+	background-image: url("..//assets/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+#RPG {
+	font-size: 54px;
+	font-family: 'Lekton', sans-serif;
+}
+
+.firstRow{
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	box-sizing: border-box;
+	outline-style: solid;
+	outline-color: limegreen;
+	outline-width: 3px;
+	align-items: center;
+	background-color: white;
+}
+
+.name, .HP {
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Lekton', sans-serif;
+	margin-bottom: 0px;
+
+}
+
+#imageo, #imagel, #imageds, #imagedm {
+	width: 96%;
+	height: 65%;
+		
+}
+
+.col-12 {
+
+	font-size: 15px;
+	font-family: 'Lekton', sans-serif;
+
+}
+
+.padLeft {
+	padding-left: 20px;
+	padding-top: 3px;
+
+
+}
+
+#picRow {
+	width: 59%;
+
+}
+
+/*#enemies0, #enemies1, #enemies2, #enemies3 {
+	float: left;
+}
+.move {
+	float: left;
+}*/
+
+.float {
+	float: left;
+}

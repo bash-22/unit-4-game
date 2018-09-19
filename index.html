@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Star Wars RPG</title>
+	
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src = "assets/game4.js"></script>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Lekton:700" rel="stylesheet">
+
+</head>
+<body>
+		
+		<div class = "row">
+			<div class = "col-6">
+				
+			</div>
+
+			<div class = "col-6" id = "RPG">
+		
+			Star Wars RPG!
+			</div>
+		</div>
+
+		<!-- second row that contains all four pictures at the start of the game. -->
+		<div class = "row" id = "picRow" style = "margin-left: 22px;">
+			<div class = "col-2 firstRow _0 float" id = "obi" value = "ObiWan">
+			<!--picture 1: Obi-Wan Kenobi.-->
+			<p class = "name nameo r0" value = "0">Obi-Wan Kenobi</p>
+			<img src="assets/images/ObiWan.jpg" id = "imageo"><br>
+			<p class = "HP ob1hp ObiWan r0"></p>
+			</div>
+
+			<div class = "col-2 firstRow _1 float" id = "luke" value = "LukeSky">
+			<!--picture 2: Luke Skywalker.-->
+			<p class = "name namel 1" value = "1">Luke Skywalker</p>
+			<img src="assets/images/LukeSkywalker.jpg" id = "imagel"><br>
+			<p class = "HP lukehp LukeSky 1"></p>
+			</div>
+
+			<div class = "col-2 firstRow _2 float" id = "darthS" value = "DarSid">
+			<!--picture 3: Darth Sidious.-->
+			<p class = "name nameds 2" value = "2">Darth Sidious</p>
+			<img src="assets/images/DarthSidious.png" id = "imageds"><br>
+			<p class = "HP darthshp DarSid 2"></p>
+			</div>
+
+			<div class = "col-2 firstRow _3 float" id = "darthM" value = "DarMaul">
+			<!--picture 4: Darth Maul.-->
+			<p class = "name namedm 3" value = "3">Darth Maul</p>
+			<img src="assets/images/DarthMaul.png" id = "imagedm"><br>
+			<p class = "HP darthmhp DarMaul 3"></p>
+			</div>
+		</div>
+
+		
+		<div class = "row padLeft">
+			<div class = "col-12">
+			Your Character
+			</div>
+		</div>
+
+		
+		<div class = "row padLeft">
+			<div class = "col-12" id = "yourChar"></div>
+		</div>
+
+		
+		<div class = "row padLeft">
+			<div class = "col-12">
+			<p>Enemies Available to Attack</p>
+			</div>
+		</div>
+
+	
+		<div class = "row padLeft empty">
+			<div class = "col-12 move"  id = "enemies1"></div>
+			<div class = "col-12 move"  id = "enemies0"></div>
+			<div class = "col-12 move"  id = "enemies2"></div>
+			<div class = "col-12 move"  id = "enemies3"></div>
+		</div>
+
+		
+		<div class = "row padLeft">
+			<div class = "col-12">
+			<p>Fight Section</p>
+			</div>
+        </div>
+		<div class = "row padLeft">
+			<div class = "col-12 attackButton">
+			<button style = "font-size: 20px; font-family: 'Lekton', sans-serif;">Attack</button>
+			</div>
+		</div>
+		<div class = "row padLeft">
+			<div class = "col-12">
+			<p>Defender</p>
+			</div>
+		</div>
+		
+		<div class = "row padLeft" style = "padding:0px">
+			<div class = "col-12" id = "defender"></div>
+		</div>
+		<div class = "row padLeft">
+			<div class = "col-12">
+			<br>
+			<p class = "youAttacked"></p>
+			<p class = "attackedBack"></p>
+			<p class = "youDefeated"></p>
+			<p class = "youWon"></p>
+			<p class = "youLose"></p>
+			<p class = "noEnemy"></p>
+			</div>
+		</div>
+		<div class = "row padLeft">
+			<div class = "col-12 padLeft">
+			<button class = "restart" style = "font-size: 20px; font-family: 'Lekton', sans-serif;">Restart</button>
+			</div>
+		</div>
+
+</body>
+</html>
